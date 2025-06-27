@@ -20,8 +20,13 @@
   <button id="darkModeToggle" class="dark-mode-toggle">🌙 Dark Mode</button>
  <div class="navbar">
     <ul>
-      <li><a href="#">Home</a></li>
-     <li><a href="#">About</a></li>
+      <li><a href="#">Home</a>
+        <ul>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+      </li>
+      <li><a href="#">About</a></li>
     </ul>
   </div>
   <div class="search-container reveal">
@@ -39,11 +44,9 @@
   <div id="commentsList" class="comment-list"></div>
 </div>
 
-  
-
   <div id="readMoreModal" class="modal">
     <div class="modal-content">
-      <span class="close-btn">&times;</span>
+      <span class="close-btn">×</span>
       <h2 id="modalTitle"></h2>
       <p id="modalDetails"></p>
     </div>
@@ -52,7 +55,7 @@
   <footer class="footer">
     <div class="footer-container">
       <div class="footer-left">
-        <p>&copy; 2025 Shahista Khan</p>
+        <p>© 2025 Shahista Khan</p>
       </div>
       <div class="footer-right">
         <ul class="social-links">
